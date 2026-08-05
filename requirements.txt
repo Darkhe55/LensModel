@@ -1,0 +1,13 @@
+# 棱镜模型 - 扩散模型训练依赖
+# 安装: pip install -r requirements.txt
+
+# 核心深度学习
+torch>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# 可视化
+matplotlib>=3.7.0
+
+# 数据处理 (可选, 加速)
+# trimesh>=3.20.0

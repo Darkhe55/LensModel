@@ -1,0 +1,98 @@
+# ===================== Agent 工作文件夹 =====================
+.reasonix/
+
+# ===================== Python 缓存 =====================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ===================== Browser 项目（独立 C++ 子项目） =====================
+browser/
+browser_design.md
+TriangleMeshBrowser-v0.1.0.zip
+
+# ===================== IDE =====================
+.vscode/
+
+# ===================== imgui 运行时配置 =====================
+**/imgui.ini
+
+# ===================== 截图与临时文件 =====================
+**/prism_shot_*
+*.tmp
+*.log
+
+# ===================== shapes: 只保留 01-10 =====================
+shapes/11_*/
+shapes/12_*/
+shapes/13_*/
+shapes/14_*/
+shapes/15_*/
+shapes/16_*/
+shapes/17_*/
+shapes/18_*/
+shapes/19_*/
+shapes/2[0-9]_*/
+shapes/3[0-9]_*/
+shapes/4[0-9]_*/
+shapes/5[0-9]_*/
+shapes/_cache/
+
+# ===================== maps: 只保留 01-10 =====================
+maps/11_*/
+maps/12_*/
+maps/13_*/
+maps/14_*/
+maps/15_*/
+maps/16_*/
+maps/17_*/
+maps/18_*/
+maps/19_*/
+maps/2[0-9]_*/
+maps/3[0-9]_*/
+maps/4[0-9]_*/
+maps/5[0-9]_*/
+
+# ===================== figures: 排除 shapes 01-10 之外的数据 =====================
+figures/弥勒佛_*
+figures/汤姆逊冲锋枪_*
+figures/斑点狗_*
+figures/天平_*
+figures/直升机_*
+figures/马_*
+figures/足骨_*
+figures/皮卡车_*
+figures/犰狳_*
+figures/番茄酱瓶_*
+figures/花瓶_*
+figures/垃圾桶_*
+
+# ===================== results: 排除 shapes 01-10 之外的数据 =====================
+results/弥勒佛_*
+results/汤姆逊冲锋枪_*
+results/斑点狗_*
+results/天平_*
+results/直升机_*
+results/马_*
+results/足骨_*
+results/皮卡车_*
+results/犰狳_*
+results/番茄酱瓶_*
+results/花瓶_*
+results/垃圾桶_*
+results/eval_test/弥勒佛_*
+results/eval_test/汤姆逊冲锋枪_*
+results/eval_test/斑点狗_*
+results/eval_test/天平_*
+results/eval_test/直升机_*
+results/eval_test/马_*
+results/eval_test/足骨_*
+results/eval_test/皮卡车_*
+results/eval_test/犰狳_*
+results/eval_test/番茄酱瓶_*
+results/eval_test/花瓶_*
+results/eval_test/垃圾桶_*
+
+# ===================== 模型文件（太大，可选用 Git LFS） =====================
+# models/*.pt 由用户自行决定是否上传
